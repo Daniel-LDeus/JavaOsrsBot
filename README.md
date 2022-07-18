@@ -20,5 +20,5 @@
 
 ## Possíveis upgrades no bot
 
-- Reconhecimento por imagem para padronizar o bot (atualmente teria que ser ajustável de acordo com o tamonho do monitor do usuário e posicionamento do client do jogo).
+- Reconhecimento por imagem para padronizar o bot (atualmente tem que ser ajustável de acordo com o tamonho do monitor do usuário e posicionamento do client do jogo).
 - GUI.
