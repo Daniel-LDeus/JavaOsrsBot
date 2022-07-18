@@ -66,7 +66,7 @@ public class miningBot  {
     throws InterruptedException, AWTException  {
         for (int x=0; x<10; x++){
             randomInterval(500,1000);
-        /*for (int i=0; i<14;i++){
+        for (int i=0; i<14;i++){
             randomPixel(63,39,1387,823);
             randomInterval(200,300);
             Robot click = new Robot();
@@ -79,7 +79,7 @@ public class miningBot  {
             click.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
             randomInterval(4200,3600);
             
-        } */
+        } 
         dropIron(1691,760);
         randomInterval(120,30);
      }
