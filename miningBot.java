@@ -64,20 +64,20 @@ public class miningBot  {
     }
     public static void main(String[] args)
     throws InterruptedException, AWTException  {
-        for (int x=0; x<2; x++){
+        for (int x=0; x<20; x++){
             randomInterval(500,1000);
         for (int i=0; i<14;i++){
             randomPixel(63,39,1387,823);
-            randomInterval(200,300);
+            randomInterval(200,3);
             Robot click = new Robot();
             click.mousePress(InputEvent.BUTTON1_DOWN_MASK);
             click.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-            randomInterval(4200,3600);
+            randomInterval(4200,36);
             randomPixel(48,47,1486,729);
-            randomInterval(150,300);
+            randomInterval(150,3);
             click.mousePress(InputEvent.BUTTON1_DOWN_MASK);
             click.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-            randomInterval(4200,3600);
+            randomInterval(4200,36);
             
         } 
         dropIron(1691,760);
